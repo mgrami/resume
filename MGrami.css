@@ -1,0 +1,315 @@
+@import url('http://fonts.cdnfonts.com/css/optima');
+body{
+	margin: 0;
+	padding-top: 1em;
+	font-family: sans-serif;
+}
+a, u {
+	text-decoration: none;
+}
+.maindiv{
+	min-width: 60em;
+}
+.topdiv{
+	background-color: white;
+	display: flex;
+	padding-right: 3em;
+	position: relative;
+	border-bottom: 3px solid #990f02;
+	padding-bottom: 0.5em;
+	min-width: 45em;
+}
+.topleft{
+	width: 40%;
+	align-items: center;
+	justify-content: left;
+	min-width: 15em;
+}
+.topleft11{
+	background-color: #343d52;
+}
+.topleft12{
+	margin-left: 2em;
+	background-color: white;
+}
+.name{
+	font-family: 'Optima';
+	padding-left: 0.2em;
+}
+.topleft21{
+	background-color: white;
+}
+.topleft22{
+	margin-left: 1em;
+	background-color: white;
+	font-size: 0.8em;
+}
+.topleft31{
+	background-color: white;
+}
+.topleft32{
+	margin-left: 3em;
+	background-color: white;
+	font-size: 0.8em;
+}
+.topmiddle{
+	background-color: white;
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 15em;
+}
+.photo{
+	border-radius: 50%;
+	border: 2px solid #343d52;
+	width: 180px;
+	height: 180px;
+}
+.topright{
+	background-color: white;
+	flex: 1;
+	font-size: 0.8em;
+	padding-top: 2em;
+	min-width: 15em;
+}
+.topright1{
+	display: flex;
+	height: 2em;
+}
+.topright11{
+	background-color: white;
+	flex: 1;
+	text-align: right;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	padding-right: 0.3em;
+}
+.topright12{
+	background-color: white;
+	text-align: right;
+	padding-top: 0.5em;
+}
+.bottomdiv{
+	margin-top: 0.5em;
+	margin-bottom: 2em;
+	background-color: yellow;
+	display: flex;
+	min-width: 45em;
+}
+.bottomleft{
+	background-color: white;
+	width: 50%;
+}
+.bottomleft1{
+	background-color: white;
+}
+.bottomleft11{
+	background-color: #990f02;
+}
+.bottomleft12{
+	background-color: white;
+	font-family: 'Optima';
+	margin-left: 1.5em;
+	padding-left: 0.2em;
+}
+.bottomleft2{
+	background-color: white;
+	font-size: 0.9em;
+	margin-left: 2.4em;
+	margin-right: 1em;
+}
+.p_main_h{
+	background-color: lightgray;
+	display: flex;
+	text-align: center;
+	font-family: 'Optima';
+	font-weight: bold;
+	font-size: 0.8em;
+	height: 2em;
+	line-height: 2em;
+	border-radius: 1em;
+}
+.p_main_h1{
+	/*background-color: orange;*/
+	padding-left: 0.5em;
+	width: 5%;
+	border-radius: 1em 0 0 1em;
+}
+.p_main_h2{
+	/*background-color: red;*/
+	width: 60%;
+	min-width: 15em;
+	text-align: left;
+	padding-left: 0.5em;
+}
+.p_main_h3{
+	/*background-color: orange;*/
+	width: 15%;
+}
+.p_main_h4{
+	/*background-color: red;*/
+	width: 10%;
+}
+.p_main_h5{
+	/*background-color: orange;*/
+	width: 10%;
+	border-radius: 0 1em 1em 0;
+}
+.p_main_r{
+	background-color: white;
+	display: flex;
+	text-align: center;
+	font-family: 'Optima';
+	font-weight: bold;
+	font-size: 0.8em;
+	min-height: 2em;
+	line-height: 1.5em;
+	border-radius: 1em;
+	border-bottom: 1px solid lightgray;
+}
+.p_main_r1{
+	/*background-color: orange;*/
+	padding-left: 0.5em;
+	width: 5%;
+	border-radius: 1em 0 0 1em;
+	line-height: 3em;
+}
+.p_main_r2{
+	/*background-color: red;*/
+	width: 60%;
+	min-width: 15em;
+	text-align: left;
+	padding-left: 0.5em;
+}
+.p_main_r3{
+	/*background-color: orange;*/
+	width: 15%;
+	line-height: 3em;
+}
+.p_main_r4{
+	/*background-color: red;*/
+	width: 10%;
+	line-height: 3em;
+}
+.p_main_r5{
+	/*background-color: orange;*/
+	width: 10%;
+	border-radius: 0 1em 1em 0;
+	line-height: 3em;
+}
+.bottomright{
+	background-color: white;
+	width: 50%;
+}
+.bottomright1{
+	background-color: orange;
+}
+.citations{
+	margin-top: 0.5em;
+	font-family: 'Optima';
+	font-weight: bold;
+	font-size: 0.9em;
+}
+.langprog{
+	display: flex;
+}
+.lang{
+	padding-right: 4em;
+}
+.edutableh{
+	background-color: lightgray;
+	display: flex;
+	text-align: center;
+	font-family: 'Optima';
+	font-weight: bold;
+	font-size: 0.8em;
+	min-height: 2em;
+	line-height: 2em;
+	border-radius: 1em;
+	border-bottom: 1px solid lightgray;
+}
+.edudegreeh{
+	width: 10%;
+	line-height: 2em;
+}
+.edufieldh{
+	width: 25%;
+	line-height: 2em;
+}
+.eduunih{
+	width: 25%;
+	line-height: 2em;
+}
+.educountryh{
+	width: 10%;
+	line-height: 2em;
+}
+.edugradeh{
+	width: 10%;
+	line-height: 2em;
+}
+.edustarth{
+	width: 10%;
+	min-width: 5em;
+	line-height: 2em;
+}
+.eduendh{
+	width: 10%;
+	min-width: 5em;
+	line-height: 2em;
+}
+.edutable{
+	background-color: white;
+	display: flex;
+	text-align: center;
+	font-family: 'Optima';
+	font-weight: bold;
+	font-size: 0.8em;
+	min-height: 2em;
+	line-height: 1.5em;
+	border-radius: 1em;
+	border-bottom: 1px solid lightgray;
+}
+.edudegree{
+	width: 10%;
+	line-height: 3em;
+}
+.edufield{
+	width: 25%;
+}
+.eduuni{
+	width: 25%;
+}
+.educountry{
+	width: 10%;
+	line-height: 3em;
+}
+.edugrade{
+	width: 10%;
+	line-height: 3em;
+}
+.edustart{
+	width: 10%;
+	min-width: 5em;
+	line-height: 3em;
+}
+.eduend{
+	width: 10%;
+	min-width: 5em;
+	line-height: 3em;
+}
+.eduthesis{
+	margin-top: 1em;
+	font-family: 'Optima';
+	font-weight: bold;
+	font-size: 0.9em;
+}
+.eduadvisor{
+	margin-top: 0.5em;
+	margin-bottom: 2em;
+	font-family: 'Optima';
+	font-weight: bold;
+	font-size: 0.9em;
+}
